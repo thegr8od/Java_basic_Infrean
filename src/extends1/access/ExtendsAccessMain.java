@@ -1,6 +1,4 @@
-package extends1.access.parent;
-
-import extends1.access.child.Child;
+package extends1.access;
 
 public class ExtendsAccessMain {
 

@@ -1,20 +1,19 @@
 package extends1.super1;
 
-public class Child extends Parent {
+public class Child extends Parent{
 
-    public String value = "child";
+    public String Value = "child";
 
     @Override
-    public void hello() {
+    public void hello(){
         System.out.println("Child.hello");
     }
 
-    public void call() {
+    public void call(){
         System.out.println("this value = " + this.value);
         System.out.println("super value = " + super.value);
 
         this.hello();
         super.hello();
     }
-
 }

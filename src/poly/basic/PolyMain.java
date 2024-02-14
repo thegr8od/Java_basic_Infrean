@@ -21,8 +21,7 @@ public class PolyMain {
 
         //Child child1 = new Parent(); //자식은 부모를 담을 수 없다.
 
-        //자식의 기능은 호출할 수 없다. 컴파일 오류 발생
+        //자식의 기능을 호출 할 수 없다.
         //poly.childMethod();
-
     }
 }
